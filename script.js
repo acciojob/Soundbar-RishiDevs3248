@@ -11,7 +11,7 @@ for(let i=0 ; i<arr.length; i++){
 	btn.setAttribute('class','stop')
 	btn.textContent = arr[i]
 	btn.addEventListener('click', () => {
-        arr[i].play();
+        aud.play();
     });
 	frag.appendChild(aud)
 	frag.appendChild(btn)
