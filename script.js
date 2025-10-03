@@ -8,7 +8,7 @@ sounds.forEach((sound) => {
   // hidden audio element
   const audio = document.createElement('audio');
   audio.id = sound;
-  audio.src = ./sounds/${sound}.mp3;
+  audio.src = `./sounds/${sound}.mp3`;
   audio.preload = 'auto';
   document.body.appendChild(audio);
 
